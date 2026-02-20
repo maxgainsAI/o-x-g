@@ -1,0 +1,8 @@
+export default function Home() {
+  return (
+    <div style={{backgroundColor: 'black', color: '#00ffff', height: '100vh', fontFamily: "'Press Start 2P', monospace", display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+      <h1 style={{fontSize: '3rem', border: '2px solid #00ffff', padding: '1rem'}}>Sigma</h1>
+      <p>Prediction market. Live.</p>
+    </div>
+  );
+}
